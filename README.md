@@ -1,1 +1,6 @@
 # GIS6345_week7
+
+Write a function called sed that takes as arguments a pattern string, a replacement
+string, and two filenames; it should read the first file and write the contents into the second file (creating it if necessary). If the pattern string appears anywhere in the file, it should be replaced with the replacement string.
+
+I had trouble with this week's assignment. Even after viewing the solution linked in the exercise, I was unable to get the code to work. I tried two different solutions and am unsure about how to complete it. I think one of my problems is incorrectly creating a file path to the downloaded text. In chapter 13, we learned about a case study on selecting data structures. In the histogram example, the total number of words is counted from the text "Emma" by Jane Austen. Then, we learned how to count the total number of words and then add up frequencies to find the most common words in the text. In chapter 14, we learned how to read, write, and manipulate files. I had trouble with the exercise because I could not find the file that was being manipulated in the script. I think one of the issues with the filepath is that some files on my computer are uploaded to iCloud and some are not. I will continue debugging to try to solve this exercise.
